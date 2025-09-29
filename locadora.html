@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Top 20 Filmes - A Locadora Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="logo">
+    <h1>A Locadora do Top 20</h1>
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Saiba Mais</a></li>
+      <li><a href="#contact">Contato</a></li>
+      <li><a href="#share">Compartilhar</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="main-container">
+  <aside id="sidebar">
+    <h2>Lista de Filmes</h2>
+    <nav class="movie-list-nav">
+      <ol>
+        <li><a href="#filme1">1. O Poderoso Chefão</a></li>
+        <li><a href="#filme2">2. Um Sonho de Liberdade</a></li>
+        <li><a href="#filme3">3. O Cavaleiro das Trevas</a></li>
+        <li><a href="#filme4">4. Pulp Fiction</a></li>
+        <li><a href="#filme5">5. O Senhor dos Anéis: O Retorno do Rei</a></li>
+        <li><a href="#filme6">6. A Lista de Schindler</a></li>
+        <li><a href="#filme7">7. A Origem</a></li>
+        <li><a href="#filme8">8. Clube da Luta</a></li>
+        <li><a href="#filme9">9. Forrest Gump</a></li>
+        <li><a href="#filme10">10. Matrix</a></li>
+        <li><a href="#filme11">11. Interestelar</a></li>
+        <li><a href="#filme12">12. Os Bons Companheiros</a></li>
+        <li><a href="#filme13">13. Gladiador</a></li>
+        <li><a href="#filme14">14. Parasita</a></li>
+        <li><a href="#filme15">15. O Exterminador do Futuro 2</a></li>
+        <li><a href="#filme16">16. Cidadão Kane</a></li>
+        <li><a href="#filme17">17. Cidade de Deus</a></li>
+        <li><a href="#filme18">18. O Silêncio dos Inocentes</a></li>
+        <li><a href="#filme19">19. Django Livre</a></li>
+        <li><a href="#filme20">20. Titanic</a></li>
+      </ol>
+    </nav>
+  </aside>
+
+  <main id="main-content">
+    <h2>O Meu Ranking Pessoal: A Locadora de Filmes Favoritos</h2>
+    <p>Role para ver os 20 filmes e clique nas opções "Emprestar" ou "Vender".</p>
+
+    <section class="movie-ranking" id="filme1">
+      <div class="ranking-header"><h3>#1: O Poderoso Chefão (1972)</h3><span class="rank-number">1º Lugar</span></div>
+      <p>Um épico da máfia dirigido por Francis Ford Coppola, marco do cinema mundial.</p>
+      <img src="https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="Poster O Poderoso Chefão" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme1','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme1','Vender')">Vender (R$ 30,00)</button><p id="status-filme1">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme2">
+      <div class="ranking-header"><h3>#2: Um Sonho de Liberdade (1994)</h3><span class="rank-number">2º Lugar</span></div>
+      <p>Drama emocionante sobre amizade e esperança dentro de uma prisão.</p>
+      <img src="https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg" alt="Poster Um Sonho de Liberdade" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme2','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme2','Vender')">Vender (R$ 30,00)</button><p id="status-filme2">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme3">
+      <div class="ranking-header"><h3>#3: O Cavaleiro das Trevas (2008)</h3><span class="rank-number">3º Lugar</span></div>
+      <p>Batman enfrenta o Coringa em um dos maiores filmes de super-herói da história.</p>
+      <img src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg" alt="Poster O Cavaleiro das Trevas" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme3','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme3','Vender')">Vender (R$ 30,00)</button><p id="status-filme3">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme4">
+      <div class="ranking-header"><h3>#4: Pulp Fiction (1994)</h3><span class="rank-number">4º Lugar</span></div>
+      <p>Quentin Tarantino mistura violência, humor e diálogos inesquecíveis.</p>
+      <img src="https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" alt="Poster Pulp Fiction" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme4','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme4','Vender')">Vender (R$ 30,00)</button><p id="status-filme4">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme5">
+      <div class="ranking-header"><h3>#5: O Senhor dos Anéis: O Retorno do Rei (2003)</h3><span class="rank-number">5º Lugar</span></div>
+      <p>A conclusão épica da trilogia que redefiniu fantasia no cinema.</p>
+      <img src="https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" alt="Poster O Senhor dos Anéis: O Retorno do Rei" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme5','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme5','Vender')">Vender (R$ 30,00)</button><p id="status-filme5">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme6">
+      <div class="ranking-header"><h3>#6: A Lista de Schindler (1993)</h3><span class="rank-number">6º Lugar</span></div>
+      <p>Steven Spielberg retrata o Holocausto de forma comovente e realista.</p>
+      <img src="https://image.tmdb.org/t/p/w500/c8Ass7acuOe4za6DhSattE359gr.jpg" alt="Poster A Lista de Schindler" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme6','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme6','Vender')">Vender (R$ 30,00)</button><p id="status-filme6">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme7">
+      <div class="ranking-header"><h3>#7: A Origem (2010)</h3><span class="rank-number">7º Lugar</span></div>
+      <p>Christopher Nolan leva os sonhos ao limite em uma trama de ficção científica.</p>
+      <img src="https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg" alt="Poster A Origem" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme7','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme7','Vender')">Vender (R$ 30,00)</button><p id="status-filme7">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme8">
+      <div class="ranking-header"><h3>#8: Clube da Luta (1999)</h3><span class="rank-number">8º Lugar</span></div>
+      <p>Um clássico cult sobre identidade, consumo e rebeldia.</p>
+      <img src="https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg" alt="Poster Clube da Luta" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme8','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme8','Vender')">Vender (R$ 30,00)</button><p id="status-filme8">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme9">
+      <div class="ranking-header"><h3>#9: Forrest Gump (1994)</h3><span class="rank-number">9º Lugar</span></div>
+      <p>A história de um homem simples que atravessa décadas da história americana.</p>
+      <img src="https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg" alt="Poster Forrest Gump" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme9','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme9','Vender')">Vender (R$ 30,00)</button><p id="status-filme9">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme10">
+      <div class="ranking-header"><h3>#10: Matrix (1999)</h3><span class="rank-number">10º Lugar</span></div>
+      <p>Um marco da ficção científica que redefiniu ação e filosofia no cinema.</p>
+      <img src="https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg" alt="Poster Matrix" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme10','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme10','Vender')">Vender (R$ 30,00)</button><p id="status-filme10">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme11">
+      <div class="ranking-header"><h3>#11: Interestelar (2014)</h3><span class="rank-number">11º Lugar</span></div>
+      <p>Uma jornada épica pelo espaço em busca de um novo lar para a humanidade.</p>
+      <img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Poster Interestelar" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme11','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme11','Vender')">Vender (R$ 30,00)</button><p id="status-filme11">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme12">
+      <div class="ranking-header"><h3>#12: Os Bons Companheiros (1990)</h3><span class="rank-number">12º Lugar</span></div>
+      <p>Martin Scorsese mostra a ascensão e queda de mafiosos com realismo brutal.</p>
+      <img src="https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg" alt="Poster Os Bons Companheiros" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme12','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme12','Vender')">Vender (R$ 30,00)</button><p id="status-filme12">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme13">
+      <div class="ranking-header"><h3>#13: Gladiador (2000)</h3><span class="rank-number">13º Lugar</span></div>
+      <p>Russell Crowe estrela como o general romano que busca vingança.</p>
+      <img src="https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg" alt="Poster Gladiador" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme13','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme13','Vender')">Vender (R$ 30,00)</button><p id="status-filme13">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme14">
+      <div class="ranking-header"><h3>#14: Parasita (2019)</h3><span class="rank-number">14º Lugar</span></div>
+      <p>Uma crítica social poderosa que fez história ao vencer o Oscar.</p>
+      <img src="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" alt="Poster Parasita" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme14','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme14','Vender')">Vender (R$ 30,00)</button><p id="status-filme14">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme15">
+      <div class="ranking-header"><h3>#15: O Exterminador do Futuro 2 (1991)</h3><span class="rank-number">15º Lugar</span></div>
+      <p>Um dos melhores filmes de ação e ficção científica de todos os tempos.</p>
+      <img src="https://image.tmdb.org/t/p/w500/weVXMD5QBGeQil4HEATZqAkXeEc.jpg" alt="Poster O Exterminador do Futuro 2" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme15','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme15','Vender')">Vender (R$ 30,00)</button><p id="status-filme15">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme16">
+      <div class="ranking-header"><h3>#16: Cidadão Kane (1941)</h3><span class="rank-number">16º Lugar</span></div>
+      <p>Considerado por muitos o maior filme já feito, de Orson Welles.</p>
+      <img src="https://a-static.mlcdn.com.br/1500x1500/poster-cartaz-cidadao-kane-a-pop-arte-poster/poparteskins2/15938499399/49e7e16949caeb8f2ceaf87fc315a7ca.jpeg" alt="Poster Cidadão Kane" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme16','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme16','Vender')">Vender (R$ 30,00)</button><p id="status-filme16">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme17">
+      <div class="ranking-header"><h3>#17: Cidade de Deus (2002)</h3><span class="rank-number">17º Lugar</span></div>
+      <p>Clássico brasileiro que retrata a realidade das favelas do Rio.</p>
+      <img src="https://www.impawards.com/2003/posters/city_of_god_ver8.jpg" alt="Poster Cidade de Deus" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme17','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme17','Vender')">Vender (R$ 30,00)</button><p id="status-filme17">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme18">
+      <div class="ranking-header"><h3>#18: O Silêncio dos Inocentes (1991)</h3><span class="rank-number">18º Lugar</span></div>
+      <p>Thriller policial com Anthony Hopkins como Hannibal Lecter.</p>
+      <img src="https://image.tmdb.org/t/p/w500/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg" alt="Poster O Silêncio dos Inocentes" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme18','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme18','Vender')">Vender (R$ 30,00)</button><p id="status-filme18">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme19">
+      <div class="ranking-header"><h3>#19: Django Livre (2012)</h3><span class="rank-number">19º Lugar</span></div>
+      <p>Um faroeste moderno de Quentin Tarantino com muita vingança.</p>
+      <img src="https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg" alt="Poster Django Livre" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme19','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme19','Vender')">Vender (R$ 30,00)</button><p id="status-filme19">Disponível para locação.</p></div>
+    </section>
+    
+    <section class="movie-ranking" id="filme20">
+      <div class="ranking-header"><h3>#20: Titanic (1997)</h3><span class="rank-number">20º Lugar</span></div>
+      <p>Romance épico entre Jack e Rose a bordo do navio mais famoso da história.</p>
+      <img src="https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg" alt="Poster Titanic" class="movie-poster">
+      <div class="locadora-actions"><button onclick="simularLocacao('filme20','Emprestar')">Emprestar (R$ 5,00)</button><button onclick="simularLocacao('filme20','Vender')">Vender (R$ 30,00)</button><p id="status-filme20">Disponível para locação.</p></div>
+    </section>
+    
+    <footer class="site-footer">
+      <p>&copy; 2025 Ranking Pessoal de Filmes. Todos os direitos reservados.</p>
+    </footer>
+    <script src="locadora.js"></script>
+  </main>
+</div>
+</body>
+</html>
