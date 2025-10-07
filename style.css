@@ -40,3 +40,17 @@ h1 {
     font-size: 14px;
     color: #c9d1d9;
 }
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #cc0000;
+}
